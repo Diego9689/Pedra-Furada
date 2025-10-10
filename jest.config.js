@@ -13,4 +13,7 @@ const config = {
   },
 };
 
-module.exports = config;git 
+module.exports = config;
+
+
+
