@@ -1,4 +1,6 @@
 // jest.setup.js 
+setupFilesAfterEnv: ["<rootDir>/tests/jest.setup.js"],
+
 require("@testing-library/jest-dom"); 
  
 //  Silencia o warning do React sobre JSX transform antigo 
