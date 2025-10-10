@@ -11,7 +11,7 @@ Estrutura do Projeto - `src/pages/api` → rotas da API RESTful - `src/component
 ##  
 Instalação 
 ```bash 
-git clone https://github.com/seuusuario/pousada-pedra-furada.git 
+git clone https://github.com/Diego9689/Pedra-Furada.git 
 cd pousada-pedra-furada 
 npm install 
 npm run dev
