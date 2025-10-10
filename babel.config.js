@@ -1,6 +1,10 @@
+
 module.exports = { 
-presets: [ 
-"next/babel", 
-"@babel/preset-react" 
-] 
-};
+  presets: [ 
+    [ 
+      "@babel/preset-react", 
+      { runtime: "automatic" } //  ativa o JSX transform moderno 
+    ], 
+    "next/babel" 
+  ] 
+}; 
