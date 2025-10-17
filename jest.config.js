@@ -12,4 +12,9 @@ transform: {
 "^.+\\.(js|jsx|ts|tsx)$": "babel-jest", 
 }, 
 }; 
+module.exports = {
+  // outras configs
+  setupFiles: ["<rootDir>/jest.setup.js"],
+};
+
 module.exports = config; 
