@@ -1,5 +1,5 @@
-import { render, screen } from "@testing-library/react"; 
-import Home from "./index"; 
+import { render, screen } from "@testing-library/react";
+import Home from "../../pages/index.jsx"; 
 
 describe("Página inicial", () => { 
 it("deve renderizar o título principal", () => { 
