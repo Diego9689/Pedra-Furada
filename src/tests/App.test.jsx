@@ -1,6 +1,6 @@
-import { render, screen } from "@testing-library/React";
-import { MemoryRouter } from "React-router-dom";
-import App from "../App";
+import { render, screen } from "@testing-library/react";
+import { MemoryRouter } from "react-router-dom";
+import App from "/workspaces/Pedra-Furada/src/tests/App.jsx";
 // Mocka os componentes e páginas para testar apenas o roteamento
 jest.mock("../components/Layout", () => ({ children }) => (
  <div data-testid="layout">{children}</div>));
