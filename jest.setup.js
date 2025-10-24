@@ -2,8 +2,6 @@
 //import "@testing-library/jest-dom";
 // jest.setup.js
 import { TextEncoder, TextDecoder } from "util";
-
-
 global.TextEncoder = TextEncoder;
 global.TextDecoder = TextDecoder;
 require("@testing-library/jest-dom");
@@ -17,4 +15,7 @@ console.warn = (...args) => {
  return;
  }
  originalWarn(...args);
+ // Corrige erro "TextEncoder is not defined"
+if (!global.TextEncoder) global.TextEncoder = TextEncoder;
+if (!global.TextDecoder) global.TextDecoder = TextDecoder; 
 }; 
