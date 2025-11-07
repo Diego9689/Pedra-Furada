@@ -1,4 +1,4 @@
-# Dependências 
+# Dependências
 node_modules/ 
 # Builds e artefatos de produção 
 .next/ 
